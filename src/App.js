@@ -6,7 +6,7 @@ import Main from './Components/Main';
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/GymFluencer">
     <Routes>
       <Route path='/' element={<Main />}/>
     </Routes>
