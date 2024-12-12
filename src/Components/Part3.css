@@ -1,0 +1,88 @@
+/* Main Container for QA Items */
+#qa-container {
+  margin-bottom: 20px;
+  border-radius: 8px; /* Smooth rounded corners */
+  overflow: hidden; /* Ensure content stays within bounds */
+  background-color: #000000; /* Black background */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#qa-container:hover {
+  transform: scale(1.02); /* Slight zoom effect on hover */
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2); /* Enhanced shadow */
+}
+
+/* Question Section */
+.gym-question {
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
+  font-weight: bold;
+  font-size: 1rem; /* Reduced font size */
+  padding: 12px 16px; /* Adjusted padding for balance */
+  cursor: pointer; /* Indicate it's clickable */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.gym-question:hover {
+  background-color: #ffffff; /* White background on hover */
+  color: #000000; /* Black text on hover */
+}
+
+/* Answer Section */
+.answer {
+  background-color: #ffffff; /* White background for answers */
+  color: #000000; /* Black text for contrast */
+  font-size: 0.9rem; /* Slightly smaller text */
+  font-weight: 500;
+  padding: 10px 16px; /* Adjusted padding for compact design */
+  opacity: 0; /* Hide the answer by default */
+  max-height: 0; /* Collapse the answer's height */
+  overflow: hidden; /* Prevent content overflow */
+  transition: opacity 0.3s ease, max-height 0.3s ease; /* Smooth transition */
+}
+
+#qa-container:hover .answer {
+  opacity: 1; /* Make the answer visible */
+  max-height: 150px; /* Provide enough space for the answer */
+}
+
+/* FAQ Section Container */
+.gym-qa-section {
+  color: #ffffff; /* White text for the header */
+  background-color: #000000; /* Black background for the section */
+  padding: 30px; /* Slightly reduced padding */
+  border-radius: 10px; /* Rounded corners for the section */
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2); /* Subtle shadow for the section */
+  text-align: center;
+}
+
+/* FAQ Header */
+.gym-qa-section h2 {
+  font-size: 1.5rem; /* Reduced font size */
+  margin-bottom: 15px;
+  color: #ffffff; /* White text */
+  text-transform: uppercase; /* Make the header bold and striking */
+  letter-spacing: 1.5px; /* Adjust spacing for compactness */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #qa-container {
+    margin-bottom: 15px;
+  }
+
+  .gym-question {
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+    padding: 10px 14px; /* Reduce padding for better fit */
+  }
+
+  .answer {
+    font-size: 0.8rem; /* Smaller text for smaller screens */
+    padding: 8px 12px;
+  }
+
+  .gym-qa-section h2 {
+    font-size: 1.3rem; /* Adjust header size for smaller screens */
+  }
+}

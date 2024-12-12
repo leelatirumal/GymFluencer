@@ -1,0 +1,81 @@
+.container1{
+    height: 600px;
+    background-color: pink;
+    background-image: url('https://wallpapercave.com/wp/wp5901457.jpg');
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover; /* Make the image cover the entire container */
+    background-position: center; /* Center the image within the container */
+    width: 100%; /* Adjust as needed */
+    /* Adjust as needed */
+}
+#title1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #6a6687; /* First-color */
+    opacity: 0; /* Start with text hidden */
+    text-align: center;
+    animation-name: moveToCenter1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards; /* Ensures the final state is maintained */
+    position: absolute; /* Use absolute positioning */
+    top: 75%; /* Start at 75% of the height */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+@keyframes moveToCenter1 {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+        top: 75%; /* Start from the bottom */
+    }
+    100% {
+        visibility: visible;
+        opacity: 1; /* Fully visible */
+        top: 42%; /* Final position: center vertically */
+    }
+}
+
+#title2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #7b6ed0; /* First-color */
+    opacity: 0; /* Start with text hidden */
+    text-align: center;
+    animation-name: moveToCenter2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards; /* Ensures the final state is maintained */
+    position: absolute; /* Use absolute positioning */
+    top: 75%; /* Start at 75% of the height */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    animation-delay: 2s;
+}
+@keyframes moveToCenter2 {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+        top: 75%; /* Start from the bottom */
+    }
+    100% {
+        visibility: visible;
+        opacity: 1; /* Fully visible */
+        top: 50%; /* Final position: center vertically */
+    }
+}
+.heading{
+    width: 300px;
+    position: relative;
+    left: 90px;
+    top: 10%;
+    color: whitesmoke;
+}
+.p{
+    width: 400px;
+    height: 130px;
+    position: relative;
+    color: whitesmoke;
+
+    left: 90px;
+    top: 20%;
+}

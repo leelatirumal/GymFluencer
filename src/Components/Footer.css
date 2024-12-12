@@ -1,0 +1,70 @@
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.footer-left img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.footer-left p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.app-store,
+.play-store {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: white;
+}
+
+.app-store img,
+.play-store img {
+  width: 120px;
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+.social-media a {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+}

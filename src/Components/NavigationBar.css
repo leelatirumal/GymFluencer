@@ -1,0 +1,36 @@
+#Nav{
+    position: sticky;
+    height: 60px;
+    top: 0;
+    background-color:black;
+    align-items: center;
+
+}
+
+#box1{
+    display: flex;
+    justify-content: space-around;
+}
+#box2{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border:0;
+}
+
+button:hover{
+    background-color:whitesmoke;
+    color: black;
+    border-radius: 15px;
+}
+.hidden-buttons{
+    display: none;
+}
+#logo{
+    color: white;
+    font-size: x-large;
+}
