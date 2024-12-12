@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/GymFluencer/static/css/main.7e84f1ff.css",
+    "main.css": "/GymFluencer/static/css/main.b09cf920.css",
     "main.js": "/GymFluencer/static/js/main.5e743ae9.js",
     "static/js/488.a60e9c64.chunk.js": "/GymFluencer/static/js/488.a60e9c64.chunk.js",
     "index.html": "/GymFluencer/index.html",
-    "main.7e84f1ff.css.map": "/GymFluencer/static/css/main.7e84f1ff.css.map",
+    "main.b09cf920.css.map": "/GymFluencer/static/css/main.b09cf920.css.map",
     "main.5e743ae9.js.map": "/GymFluencer/static/js/main.5e743ae9.js.map",
     "488.a60e9c64.chunk.js.map": "/GymFluencer/static/js/488.a60e9c64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e84f1ff.css",
+    "static/css/main.b09cf920.css",
     "static/js/main.5e743ae9.js"
   ]
 }
