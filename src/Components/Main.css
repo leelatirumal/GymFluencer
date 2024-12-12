@@ -1,6 +1,5 @@
 .container1{
     height: 600px;
-    background-color: pink;
     background-image: url('https://wallpapercave.com/wp/wp5901457.jpg');
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-size: cover; /* Make the image cover the entire container */
