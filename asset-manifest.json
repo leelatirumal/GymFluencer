@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/GymFluencer/static/css/main.7e84f1ff.css",
+    "main.js": "/GymFluencer/static/js/main.fde47f80.js",
+    "static/js/488.a60e9c64.chunk.js": "/GymFluencer/static/js/488.a60e9c64.chunk.js",
+    "index.html": "/GymFluencer/index.html",
+    "main.7e84f1ff.css.map": "/GymFluencer/static/css/main.7e84f1ff.css.map",
+    "main.fde47f80.js.map": "/GymFluencer/static/js/main.fde47f80.js.map",
+    "488.a60e9c64.chunk.js.map": "/GymFluencer/static/js/488.a60e9c64.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e84f1ff.css",
+    "static/js/main.fde47f80.js"
+  ]
+}
